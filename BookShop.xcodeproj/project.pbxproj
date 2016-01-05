@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E4DFB0A1C3AE9D000F7F8E2 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4DFB091C3AE9D000F7F8E2 /* SWRevealViewController.m */; };
+		8E4DFB0D1C3AF2CA00F7F8E2 /* BackTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4DFB0C1C3AF2CA00F7F8E2 /* BackTableView.swift */; };
+		8E4DFB0F1C3B09BA00F7F8E2 /* Startseite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4DFB0E1C3B09BA00F7F8E2 /* Startseite.swift */; };
+		8ED0A7261C3BC999003444A6 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0A7251C3BC999003444A6 /* MyViewController.swift */; };
+		8ED0A7281C3BD00F003444A6 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0A7271C3BD00F003444A6 /* MyTableViewController.swift */; };
+		8ED0A72A1C3BD1AD003444A6 /* AngeboteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0A7291C3BD1AD003444A6 /* AngeboteViewController.swift */; };
 		8EDC398A1C32B5AD0070E4BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC39891C32B5AD0070E4BC /* AppDelegate.swift */; };
 		8EDC398C1C32B5AD0070E4BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC398B1C32B5AD0070E4BC /* ViewController.swift */; };
 		8EDC398F1C32B5AD0070E4BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDC398D1C32B5AD0070E4BC /* Main.storyboard */; };
@@ -15,6 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E4DFB071C3AE9CF00F7F8E2 /* BookShop-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BookShop-Bridging-Header.h"; sourceTree = "<group>"; };
+		8E4DFB081C3AE9D000F7F8E2 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		8E4DFB091C3AE9D000F7F8E2 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		8E4DFB0C1C3AF2CA00F7F8E2 /* BackTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableView.swift; sourceTree = "<group>"; };
+		8E4DFB0E1C3B09BA00F7F8E2 /* Startseite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Startseite.swift; sourceTree = "<group>"; };
+		8ED0A7251C3BC999003444A6 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		8ED0A7271C3BD00F003444A6 /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		8ED0A7291C3BD1AD003444A6 /* AngeboteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngeboteViewController.swift; sourceTree = "<group>"; };
 		8EDC39861C32B5AD0070E4BC /* BookShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDC39891C32B5AD0070E4BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EDC398B1C32B5AD0070E4BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +49,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E4DFB0B1C3AE9DF00F7F8E2 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				8E4DFB081C3AE9D000F7F8E2 /* SWRevealViewController.h */,
+				8E4DFB091C3AE9D000F7F8E2 /* SWRevealViewController.m */,
+				8EDC39951C32B5AD0070E4BC /* Info.plist */,
+				8E4DFB071C3AE9CF00F7F8E2 /* BookShop-Bridging-Header.h */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
 		8EDC397D1C32B5AD0070E4BC = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +79,17 @@
 		8EDC39881C32B5AD0070E4BC /* BookShop */ = {
 			isa = PBXGroup;
 			children = (
+				8E4DFB0B1C3AE9DF00F7F8E2 /* Supporting files */,
 				8EDC39891C32B5AD0070E4BC /* AppDelegate.swift */,
 				8EDC398B1C32B5AD0070E4BC /* ViewController.swift */,
 				8EDC398D1C32B5AD0070E4BC /* Main.storyboard */,
 				8EDC39901C32B5AD0070E4BC /* Assets.xcassets */,
 				8EDC39921C32B5AD0070E4BC /* LaunchScreen.storyboard */,
-				8EDC39951C32B5AD0070E4BC /* Info.plist */,
+				8E4DFB0C1C3AF2CA00F7F8E2 /* BackTableView.swift */,
+				8E4DFB0E1C3B09BA00F7F8E2 /* Startseite.swift */,
+				8ED0A7251C3BC999003444A6 /* MyViewController.swift */,
+				8ED0A7271C3BD00F003444A6 /* MyTableViewController.swift */,
+				8ED0A7291C3BD1AD003444A6 /* AngeboteViewController.swift */,
 			);
 			path = BookShop;
 			sourceTree = "<group>";
@@ -136,7 +166,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EDC398C1C32B5AD0070E4BC /* ViewController.swift in Sources */,
+				8ED0A7281C3BD00F003444A6 /* MyTableViewController.swift in Sources */,
 				8EDC398A1C32B5AD0070E4BC /* AppDelegate.swift in Sources */,
+				8ED0A72A1C3BD1AD003444A6 /* AngeboteViewController.swift in Sources */,
+				8E4DFB0D1C3AF2CA00F7F8E2 /* BackTableView.swift in Sources */,
+				8E4DFB0A1C3AE9D000F7F8E2 /* SWRevealViewController.m in Sources */,
+				8ED0A7261C3BC999003444A6 /* MyViewController.swift in Sources */,
+				8E4DFB0F1C3B09BA00F7F8E2 /* Startseite.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +285,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BookShop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Arthur.BookShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BookShop/BookShop-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -260,10 +299,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BookShop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Arthur.BookShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BookShop/BookShop-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -286,6 +327,7 @@
 				8EDC399A1C32B5AD0070E4BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
