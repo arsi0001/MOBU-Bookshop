@@ -1,26 +1,25 @@
 //
-//  AngeboteViewController.swift
+//  MeinKontoViewController.swift
 //  BookShop
 //
-//  Created by Arthur on 05/01/16.
+//  Created by Arthur on 11/01/16.
 //  Copyright © 2016 Arthur. All rights reserved.
 //
 
 import UIKit
 
-class AngeboteViewController: UIViewController {
+class MeinKontoViewController: UIViewController {
 
     @IBOutlet weak var menuButton: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
+        // Do any additional setup after loading the view.
         if self.revealViewController() != nil{
             menuButton.target = self.revealViewController()
             menuButton.action = "revealToggle:"
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-        }       
-
-        // Do any additional setup after loading the view.
+        }
     }
 
     override func didReceiveMemoryWarning() {
