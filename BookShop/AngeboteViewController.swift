@@ -14,6 +14,9 @@ class AngeboteViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let image = UIImage(named: "onlyLogo")
+        navigationItem.titleView = UIImageView(image: image)
+        
         if self.revealViewController() != nil{
             menuButton.target = self.revealViewController()
             menuButton.action = "revealToggle:"

@@ -13,6 +13,9 @@ class MeinKontoViewController: UIViewController {
     @IBOutlet weak var menuButton: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let image = UIImage(named: "onlyLogo")
+        navigationItem.titleView = UIImageView(image: image)
 
         // Do any additional setup after loading the view.
         if self.revealViewController() != nil{

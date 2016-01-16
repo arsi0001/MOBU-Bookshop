@@ -11,6 +11,8 @@
 		8E4DFB0D1C3AF2CA00F7F8E2 /* BackTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4DFB0C1C3AF2CA00F7F8E2 /* BackTableView.swift */; };
 		8E4DFB0F1C3B09BA00F7F8E2 /* Startseite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4DFB0E1C3B09BA00F7F8E2 /* Startseite.swift */; };
 		8E506D681C43ECF50081725A /* MeinKontoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E506D671C43ECF50081725A /* MeinKontoViewController.swift */; };
+		8E61F5FC1C48581A002C06CA /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E61F5FB1C48581A002C06CA /* BookCell.swift */; };
+		8E61F5FE1C485A0B002C06CA /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E61F5FD1C485A0B002C06CA /* Book.swift */; };
 		8ED0A7261C3BC999003444A6 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0A7251C3BC999003444A6 /* MyViewController.swift */; };
 		8ED0A7281C3BD00F003444A6 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0A7271C3BD00F003444A6 /* MyTableViewController.swift */; };
 		8ED0A72A1C3BD1AD003444A6 /* AngeboteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0A7291C3BD1AD003444A6 /* AngeboteViewController.swift */; };
@@ -28,6 +30,8 @@
 		8E4DFB0C1C3AF2CA00F7F8E2 /* BackTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableView.swift; sourceTree = "<group>"; };
 		8E4DFB0E1C3B09BA00F7F8E2 /* Startseite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Startseite.swift; sourceTree = "<group>"; };
 		8E506D671C43ECF50081725A /* MeinKontoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeinKontoViewController.swift; sourceTree = "<group>"; };
+		8E61F5FB1C48581A002C06CA /* BookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		8E61F5FD1C485A0B002C06CA /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		8ED0A7251C3BC999003444A6 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		8ED0A7271C3BD00F003444A6 /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		8ED0A7291C3BD1AD003444A6 /* AngeboteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngeboteViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 				8ED0A7271C3BD00F003444A6 /* MyTableViewController.swift */,
 				8ED0A7291C3BD1AD003444A6 /* AngeboteViewController.swift */,
 				8E506D671C43ECF50081725A /* MeinKontoViewController.swift */,
+				8E61F5FB1C48581A002C06CA /* BookCell.swift */,
+				8E61F5FD1C485A0B002C06CA /* Book.swift */,
 			);
 			path = BookShop;
 			sourceTree = "<group>";
@@ -171,9 +177,11 @@
 				8EDC398C1C32B5AD0070E4BC /* ViewController.swift in Sources */,
 				8ED0A7281C3BD00F003444A6 /* MyTableViewController.swift in Sources */,
 				8EDC398A1C32B5AD0070E4BC /* AppDelegate.swift in Sources */,
+				8E61F5FE1C485A0B002C06CA /* Book.swift in Sources */,
 				8ED0A72A1C3BD1AD003444A6 /* AngeboteViewController.swift in Sources */,
 				8E506D681C43ECF50081725A /* MeinKontoViewController.swift in Sources */,
 				8E4DFB0D1C3AF2CA00F7F8E2 /* BackTableView.swift in Sources */,
+				8E61F5FC1C48581A002C06CA /* BookCell.swift in Sources */,
 				8E4DFB0A1C3AE9D000F7F8E2 /* SWRevealViewController.m in Sources */,
 				8ED0A7261C3BC999003444A6 /* MyViewController.swift in Sources */,
 				8E4DFB0F1C3B09BA00F7F8E2 /* Startseite.swift in Sources */,
