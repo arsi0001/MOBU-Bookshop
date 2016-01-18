@@ -70,6 +70,21 @@ class MyViewController: UIViewController, UICollectionViewDataSource, UICollecti
         return cell
     }
     
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        super.prepareForSegue(segue, sender: sender)
+        
+        if segue.identifier == "toDetailView" {
+            let detailVC: DetailViewController? = segue.destinationViewController as? DetailViewController
+            
+            if detailVC != nil {
+                let item: Book = self.books![self.collectionView.indexPathsForSelectedItems()![0].row]
+                
+                detailVC?.title = item.autor
+                detailVC?.imageName = item.titel
+            }
+        }
+    }
 
     /*
     // MARK: - Navigation
