@@ -9,7 +9,12 @@
 import Foundation
 
 struct Book {
-    var autor: String
-    var titel: String
+    var dateiName: String
+    var autorName: String
+    var titelName: String
+    var preisName: String
+    var beschreibungName: String
+    var merkmaleName: String
+    var rezensionName: String
     
 }
