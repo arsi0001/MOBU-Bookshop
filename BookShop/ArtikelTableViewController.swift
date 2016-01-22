@@ -17,17 +17,26 @@ class ArtikelTableViewController: UITableViewController {
     @IBOutlet weak var buchBeschreibung: UILabel!
     @IBOutlet weak var buchMerkmale: UILabel!
     @IBOutlet weak var buchRezension: UILabel!
+    @IBOutlet weak var buchAnzahl: UILabel!
     
+    var buecher: Book!
+    @IBAction func inDenWarenkorb(sender: UIButton) {
+        WarenkorbViewController.sharedInstance.warenkorbBuecher.append(buecher)
+    }
     var buchImageName: String?
     var buchTitelName: String?
     var buchAutorName: String?
-    var buchPreisName: String?
+    var buchPreisName: Double?
     var buchBeschreibungName: String?
     var buchMerkmaleName: String?
     var buchRezensionName: String?
+    var buchAnzahlName: Int?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let image = UIImage(named: "onlyLogo")
+        navigationItem.titleView = UIImageView(image: image)
         
         if self.buchImageName != nil{
             self.buchImage.image = UIImage(named: buchImageName!)
@@ -42,7 +51,7 @@ class ArtikelTableViewController: UITableViewController {
         }
         
         if self.buchPreisName != nil{
-            self.buchPreis.text = buchPreisName!
+            self.buchPreis.text = "Preis: " + String(format:"%.2f", buchPreisName!) + " €"
         }
         
         if self.buchBeschreibungName != nil{
@@ -55,6 +64,10 @@ class ArtikelTableViewController: UITableViewController {
         
         if self.buchRezensionName != nil{
             self.buchRezension.text = buchRezensionName!
+        }
+        
+        if self.buchAnzahlName != nil{
+            self.buchAnzahl.text = "Anzahl: " + String(buchAnzahlName!)
         }
         
         

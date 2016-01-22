@@ -12,9 +12,10 @@ struct Book {
     var dateiName: String
     var autorName: String
     var titelName: String
-    var preisName: String
+    var preisName: Double
     var beschreibungName: String
     var merkmaleName: String
     var rezensionName: String
+    var anzahlName: Int
     
 }
